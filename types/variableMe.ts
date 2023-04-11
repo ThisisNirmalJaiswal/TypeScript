@@ -25,6 +25,6 @@ function gethero() {
   return true;
 }
 
-hero = gethero();
+// hero = gethero();
 
 export {};

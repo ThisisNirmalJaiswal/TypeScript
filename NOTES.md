@@ -12,4 +12,6 @@
 
 # -----what typescript does:-----
 
-## static checking:- whenever we write a code the parser of the language
+## static checking:- whenever we write a code the parser of the language / Analyze the code as we type. That's it
+
+##

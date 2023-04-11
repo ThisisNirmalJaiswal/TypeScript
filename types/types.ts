@@ -41,13 +41,13 @@ let arr1: any = [1, 2, 3, 4];
 arr1[0] = 'nirmal'; // it doesn't show any error bcuz its type of any. we can insert and update any value
 console.log(arr1);
 
-let obj: any = { x: 0 };
-// None of the following lines of code will throw compiler errors.
-// Using `any` disables all further type checking, and it is assumed
-// you know the environment better than TypeScript.
+// let obj: any = { x: 0 };
+// // None of the following lines of code will throw compiler errors.
+// // Using `any` disables all further type checking, and it is assumed
+// // you know the environment better than TypeScript.
 // obj.foo();
-obj();
-obj.bar = 100;
-obj = 'hello';
-const n: number = obj;
-console.log(obj);
+// obj();
+// obj.bar = 100;
+// obj = 'hello';
+// const n: number = obj;
+// console.log(obj);
