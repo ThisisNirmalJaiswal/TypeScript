@@ -10,7 +10,7 @@
 
 // another way to define a class
 class User {
-  private _courseCount = 1;
+  protected _courseCount = 1;
 
   readonly city: string = 'New Delhi';
   constructor(
@@ -21,6 +21,7 @@ class User {
   private deleteToken() {
     console.log('Token Deleted');
   }
+
   get getAppleEmail(): string {
     return `apple${this.email}`;
   }
@@ -34,6 +35,13 @@ class User {
       throw new Error('Course count should be more than 1');
     }
     this._courseCount = courseNum;
+  }
+}
+
+class SubUser extends User {
+  isFamily: boolean = true;
+  changeCourseCount() {
+    this._courseCount = 4;
   }
 }
 
