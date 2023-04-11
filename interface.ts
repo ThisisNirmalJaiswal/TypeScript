@@ -8,10 +8,20 @@ interface User {
   getCoupon(couponName: string, value: number): number;
 }
 
-const nirmal: User = {
+interface User {
+  githubToken: string;
+}
+
+interface Admin extends User {
+  role: 'admin' | 'ta' | 'learner';
+}
+
+const nirmal: Admin = {
   dbId: 23,
   email: 'nirm@gmail.com',
+  role: 'admin',
   userId: 2011,
+  githubToken: 'github',
   startTrail: () => {
     return 'trail started';
   },
@@ -19,3 +29,5 @@ const nirmal: User = {
     return 10;
   },
 };
+
+export {};

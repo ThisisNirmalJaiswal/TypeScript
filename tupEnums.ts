@@ -11,3 +11,4 @@ const newUser: User = [112, 'nirmal@gmail.com'];
 
 newUser[1] = 'hc.com';
 // newUser.push(true);
+export {};
