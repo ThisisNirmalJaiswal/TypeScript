@@ -1,10 +1,30 @@
-let greetings: string = 'Hello Nirmal';
+// // let variableName: type = value;
 
-// greetings = true;
-let myNum = 6;
+// let greetings: string = 'Hello Nirmal';
 
-myNum.toLowercase();
+// // greetings = true;
+// let myNum = 6;
 
-console.log(greetings);
+// // myNum.toLowercase();
+// greetings.toLowerCase(); // hello nirmal
+
+// console.log(greetings);
+
+// number
+let userId = 334455.45;
+userId.toFixed();
+// userId = 'nirmal'
+
+// boolean
+let isLoggedIn: boolean = false;
+
+// any
+let hero: String;
+
+function gethero() {
+  return true;
+}
+
+hero = gethero();
 
 export {};
